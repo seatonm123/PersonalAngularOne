@@ -1,0 +1,196 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(34, 34, 34);
+}
+
+main {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.sidebar-nav {
+  width: 20em;
+  height: 28em;
+  position: fixed;
+  top: 18em;
+}
+
+.sidebar-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 0.8em;
+  height: 28em;
+  background-color: rgb(54, 54, 54);
+  position: fixed;
+  top: 18em;
+  box-shadow: 1px 1px 1px black;
+}
+
+#to-open {
+  color: rgb(145, 145, 145);
+  font-weight: bolder;
+}
+
+.specialHead {
+  width: 8em;
+  text-align: right;
+  background-color: rgba(54, 54, 54, 0.94);
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+#home-main {
+  margin-top: 0px;
+  padding-top: 2em;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../assets/Pike.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home-container {
+  margin-top: 0em;
+  padding: 0.2em;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#me-pic {
+  width: 10em;
+  height: auto;
+  border-radius: 50%;
+  border: 0.1px solid black;
+}
+
+.blog-box {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#title-box {
+  width: 100em;
+  margin-top: 5em;
+  margin-bottom: 3em;
+}
+
+.title-div {
+  width: 65em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(246, 246, 246, 1);
+  margin-top: 4em;
+  border: 2px solid rgb(59, 59, 59);
+  margin-left: 17.5em;
+}
+
+.jumbotron {
+  padding-left: 5em;
+  margin-top: 2em;
+  border-top: 2px solid rgb(59, 59, 59);
+  border-bottom: 2px solid rgb(59, 59, 59);
+  margin-bottom: 2em;
+}
+
+#travels-main-one {
+  margin-top: 0px;
+  padding-top: 2em;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../assets/Pike.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+travels-main-two {
+  margin-top: 0px;
+  padding-top: 2em;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../assets/Pike.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+#map-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+  margin-left: 2em;
+  width: 97em;
+  background-color: rgba(246, 246, 246, 1);
+  border-radius: 40%;
+  padding: 6em;
+  border-top: 2px solid rgb(59, 59, 59);
+  border-bottom: 2px solid rgb(59, 59, 59);
+}
+
+#pixel-map {
+  width: 70em;
+  height: auto;
+}
+
+#fitz-quote {
+  width: 50em;
+  height: auto;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.travel-box {
+  border-top: 2px solid rgb(59, 59, 59);
+  border-bottom: 2px solid rgb(59, 59, 59);
+  background-color: rgba(246, 246, 246, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 98em;
+  align-items: center;
+  margin-top: 5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.travel-thumb {
+  width: 25em;
+  height: 18em;
+  border: 1px solid black;
+}
+
+#honorable-mention {
+  margin-bottom: 2em;
+}
+
+#whole-thing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-panel {
+  border: 2px solid rgb(59, 59, 59);
+  color: rgb(59, 59, 59);
+  text-align: center;
+}
